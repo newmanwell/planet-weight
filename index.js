@@ -3,7 +3,7 @@ const weightConversion = () => {
 // Get user weight from a prompt and convert to number and assign to a const
 const earthWeight = Number(prompt(`Enter your Earthly weight below`));
   
-// Create equations that takes in the user weight const and converts to weight on other planets
+// Create equations that takes in the user weight and converts to weight on other planets
 const mercuryWeight = Math.floor(earthWeight * .38);
 const venusWeight = Math.floor(earthWeight * .91);
 const marsWeight = Math.floor(earthWeight * .38);
